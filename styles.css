@@ -11,7 +11,6 @@ header {
     right: 0;
     height: 50px;
     line-height: 50px;
-    background-color: #eee;
 }
 
 header * {
@@ -30,13 +29,13 @@ header li {
 section {
     height: 100vh;
     border: 1px solid black;
-    display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
 }
 
 #Images .profile-img {
+    border-radius: 50%;
     width: 300px;
 }
 
@@ -46,12 +45,12 @@ footer {
 }
 
 /* The hero image */
-#Images .hero-image {
+.hero-image {
     /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../Images/ColorHawkPaint.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("Images/ColorHawkPaint.jpg");
   
     /* Set a specific height */
-    height: 50%;
+    height: 100%;
   
     /* Position and center the image to scale nicely on all screens */
     background-position: center;
